@@ -22,3 +22,10 @@ footer {
   transform: scale(0.98);
   color: var(--primary-color);
 }
+
+small > a {
+  margin-left: 0.5rem;
+}
+small {
+  font-size: 0.8rem;
+}
