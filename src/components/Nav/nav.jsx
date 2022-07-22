@@ -18,7 +18,7 @@ const Nav = () => {
         <a href="#experience" onClick={()=> setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}>
           <FontAwesomeIcon icon={faVcard} />
         </a>
-        <a href="#portfoglio" onClick={()=> setActiveNav('#portfoglio')} className={activeNav === '#portfoglio' ? 'active' : ''}>
+        <a href="#portfolio" onClick={()=> setActiveNav('#portfolio')} className={activeNav === '#portfoglio' ? 'active' : ''}>
           <FontAwesomeIcon icon={faCode} />
         </a>
         <a href="#contact" onClick={()=> setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}>

@@ -5,7 +5,7 @@ import Experience from "./components/Experience/experience";
 import Footer from "./components/Footer/footer";
 import Header from "./components/Header/header";
 import Nav from './components/Nav/nav';
-import Portfoglio from "./components/Portfoglio/portfoglio";
+import Portfolio from "./components/Portfolio/portfolio";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <Nav />
         <About />
         <Experience />
-        <Portfoglio />
+        <Portfolio />
         <Contact />
         <Footer />
     </>

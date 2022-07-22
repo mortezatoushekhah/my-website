@@ -1,0 +1,29 @@
+.experience-container h3{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.skills-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills-images img {
+    width: 5rem;
+    object-fit: fill;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.skills-images img:hover {
+    transform: scale(0.9);
+}
+
+@media only screen and (max-width: 640px) {
+    .skills-images{
+        gap: 3rem;
+        margin: auto 3rem;
+        flex-wrap: wrap;
+    }
+  }
