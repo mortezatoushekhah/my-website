@@ -18,27 +18,32 @@ const About = () => {
           <div className="about-content">
             <div className="about-cards">
               <article className="about-card">
-                <FontAwesomeIcon icon={faAward} className='about-icon' />
+                <FontAwesomeIcon icon={faAward} className="about-icon" />
                 <h5>Experience</h5>
                 <small>2+ years experience</small>
               </article>
 
               <article className="about-card">
-                <FontAwesomeIcon icon={faUser} className='about-icon' />
+                <FontAwesomeIcon icon={faUser} className="about-icon" />
                 <h5>Clients</h5>
                 <small>50+ Clients</small>
               </article>
 
               <article className="about-card">
-                <FontAwesomeIcon icon={faFolder} className='about-icon' />
+                <FontAwesomeIcon icon={faFolder} className="about-icon" />
                 <h5>Projects</h5>
                 <small>70+ Projects</small>
               </article>
-
             </div>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et fugit consequuntur nam. Molestias sint est, temporibus, at ut iste quos velit dolore maxime natus laborum expedita reiciendis cum, ratione voluptates.</p>
-            <a href="#contact" className="btn btn-primary">Contact Me</a>
+            <p>
+              I am computer engineering and <b>Front End Developer</b>. my
+              skills are front end technologies such as html, css, javascript,
+              react, sass, bootstrap, git.
+            </p>
+            <a href="#contact" className="btn btn-primary">
+              Contact Me
+            </a>
           </div>
         </div>
       </section>

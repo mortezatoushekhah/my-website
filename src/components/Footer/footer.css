@@ -1,0 +1,24 @@
+footer {
+  height: 30vh;
+  background: var(--background-color);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 2rem;
+  position: relative;
+}
+
+.top-arrow {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  font-size: 3rem;
+  cursor: pointer;
+  color: var(--primary-color-variant);
+  transition: var(--transition);
+}
+
+.top-arrow:hover {
+  transform: scale(0.98);
+  color: var(--primary-color);
+}
